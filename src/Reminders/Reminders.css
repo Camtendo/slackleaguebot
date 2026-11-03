@@ -1,0 +1,74 @@
+.reminders-container {
+  font-size: 14px;
+  display: flex;
+}
+.reminders-controls {
+  margin: 15px;
+  max-width: 390px;
+}
+.reminder-instructions {
+  font-size: 10px;
+}
+.custom-title {
+  margin: 15px;
+}
+
+#button-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#submit-options {
+  display: flex;
+  flex-direction: row;
+  margin: 15px 15px;
+}
+
+.textarea-wrapper, .response-textarea-wrapper {
+  display: flex;
+  margin: 15px 15px;
+}
+
+.textarea-wrapper textarea {
+  max-width: 800px;
+}
+
+.response-textarea-wrapper.loading {
+  position: relative;
+}
+
+.response-textarea-wrapper.loading .lds-roller {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.response-textarea-wrapper.loading textarea {
+  opacity: 0.5;
+  transition: 0.5s ease;
+}
+
+.response-textarea-wrapper textarea {
+  width: 56vw;
+  font-family: monospace;
+  font-size: 12px;
+  white-space: pre;
+  transition: 0.5s ease;
+}
+
+.reminders-container .rmdp-calendar {
+  margin-bottom: 120px;
+}
+.reminders-container .rmdp-wrapper {
+  min-height: 350px;
+}
+.reminders-container div.rmdp-panel {
+  min-width: 140px;
+}
+button.btn-trigger-reminders {
+  padding: 3px;
+  margin: 5px;
+  font-size: 12px;
+}
